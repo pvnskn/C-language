@@ -8,7 +8,7 @@ date: "2/14/2025"
 
 # Welcome
 
-**Hello world**, this is my first blog post.
+**Hello world**, this is my first blog post. Hello, I'm Nikhil. 
 
 I can write in markdown
 
