@@ -8,9 +8,9 @@
 
 <meta name="author" content="P V N S K Nikhil">
 <meta name="dcterms.date" content="2025-02-24">
-<meta name="description" content="A pyhton library to create LaTeX effortlessly">
+<meta name="description" content="How to print and take inputs in C">
 
-<title>PyLaTeX – Quarto Template</title>
+<title>printf and scanf – Quarto Template</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -149,12 +149,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">PyLaTeX</h1>
+<h1 class="title">printf and scanf</h1>
 </div>
 
 <div>
   <div class="description">
-    A pyhton library to create LaTeX effortlessly
+    How to print and take inputs in C
   </div>
 </div>
 
@@ -183,14 +183,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="how-to-install-pylatex" class="level1">
-<h1>How to install PyLaTeX:</h1>
-<p>Apply the following prompt in your JuPyter or Google Colab, and pylatex will get installed:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install pylatex</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>After installing pylatex, we also require a latex compiler, for generating latex documents. You can use the following prompt, if your system doesn’t have one:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>apt<span class="op">-</span>get install <span class="op">-</span>y texlive<span class="op">-</span>xetex texlive<span class="op">-</span>fonts<span class="op">-</span>recommended texlive<span class="op">-</span>fonts<span class="op">-</span>extra</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>In this blog, I will cover on how to take in handle input and output in C. C runs on several libraries and specific libraries are to be included based on need.</p>
+<section id="printf-and-scanf" class="level1">
+<h1>printf and scanf</h1>
+<p><code>printf</code> and <code>scanf</code> are two functions in C which are used to give output and take input respectively. These are a part of the <code>&lt;stdio.h&gt;</code> library, which needs to included before starting to write code. Syntax for this is:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode c code-with-copy"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="printf" class="level2">
+<h2 class="anchored" data-anchor-id="printf">printf</h2>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -284,7 +286,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/pvnskn\.github\.io\/psdv_assign_4\/");
+      var filterRegex = new RegExp("https:\/\/pvnskn\.github\.io\/C-language\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
