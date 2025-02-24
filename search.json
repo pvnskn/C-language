@@ -21,6 +21,13 @@
     "text": "import numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)"
   },
   {
+    "objectID": "posts/PyLaTeX.html",
+    "href": "posts/PyLaTeX.html",
+    "title": "PyLaTeX",
+    "section": "",
+    "text": "How to install PyLaTeX:\nApply the following prompt in your JuPyter or Google Colab, and pylatex will get installed:\n!pip install pylatex\nAfter installing pylatex, we also require a latex compiler, for generating latex documents. You can use the following prompt, if your system doesn’t have one:\n!apt-get install -y texlive-xetex texlive-fonts-recommended texlive-fonts-extra"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Quarto Template",
